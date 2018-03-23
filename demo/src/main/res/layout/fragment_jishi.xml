@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/event_phone_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="仪器名称"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/map_phone"/>
+        <EditText
+            android:id="@+id/event_phone_value_et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:hint="请输入"
+            android:drawableRight="@drawable/hint"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/shallowBlack"
+            android:textColorHint="@color/select_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/event_phone_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="仪器ID"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/map_phone"/>
+        <EditText
+            android:id="@+id/event_phone_value_et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:hint="请输入"
+            android:drawableRight="@drawable/hint"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/shallowBlack"
+            android:textColorHint="@color/select_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/event_phone_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="测点编码"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/map_phone"/>
+        <EditText
+            android:id="@+id/event_phone_value_et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:hint="请输入"
+            android:drawableRight="@drawable/hint"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/shallowBlack"
+            android:textColorHint="@color/select_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/event_phone_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="故障初步判定"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/map_phone"/>
+        <EditText
+            android:id="@+id/event_phone_value_et4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:hint="请输入"
+            android:drawableRight="@drawable/hint"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/shallowBlack"
+            android:textColorHint="@color/select_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lowgrey" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/list_selector_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="故障情况描述"
+            android:textColor="@color/darkgrey"
+            android:textSize="15sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/guide_eventcontent"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lowgrey" />
+    <EditText
+        android:id="@+id/exception_et"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="请填写故障描述..."
+        android:maxLength="300"
+        android:padding="10dp"
+        android:textColor="@color/darkgrey"
+        android:textColorHighlight="@color/darkgrey"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_emergency_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提  交"
+        android:textColor="@color/white"
+        android:background="@drawable/report_state_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+</LinearLayout>

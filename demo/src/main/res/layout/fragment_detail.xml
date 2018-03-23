@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/coord"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/toolbar"/>
+    <me.yokeyword.sample.demo_flow.view.sortbtn.SoreButton
+        android:id="@+id/soreButton"
+        android:background="#ffffff"
+        app:SoreRadioSelect="@drawable/radio_select"
+        app:SoreRadioUnselected="@drawable/radio_unselected"
+        app:SoreDistance="20"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+</LinearLayout>

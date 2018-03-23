@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#536DFE</color>
+    <color name="bg_app">#F1F1F1</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <!-- 浅灰色 -->
+    <color name="lowgrey">#F2F2F2</color>
+    <!-- 深灰色 -->
+    <color name="darkgrey">#848484</color>
+    <color name="select_gray">#e6e6e6</color>
+    <color name="gray_line">#e2e2e2</color>
+    <drawable name="select_gray">#e0e0e0</drawable>
+    <!-- 浅黑色 -->
+    <color name="shallowBlack">#454545</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="text_black">#303030</color>
+    <color name="text_gray">#999994</color>
+    <color name="search_bg">#F0F1F2</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="main">#F44336</color>
+    <color name="main_gray">#B2B2B2</color>
+    <color name="main_black">#333333</color>
+    <color name="txt_orange">#ff7e00</color>
+    <color name="txt_gray">#999999</color>
+    <color name="txt_black_gray">#666666</color>
+    <drawable name="main1">#B72727</drawable>
+    <color name="green">#63D416</color>
+    <color name="black">#000000</color>
+    <color name="select_space">#f2f2f2</color>
+    <color name="yellow">#F2F3F4</color>
+
+    <color name="video_line">#89D200</color>
+    <color name="voice_line">#FD8D37</color>
+    <color name="seven_line">#8A9EFF</color>
+    <color name="ar_line">#2DB2FF</color>
+
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#00CEB9</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#00CEB9</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="calendar_text_highlighted">#ff778088</color>
+
+    <color name="main_bg">#f1f2f3</color>
+
+    <drawable name="white">#ffffffff</drawable>
+    <drawable name="main">#00CEB9</drawable>
+
+
+    <color name="tagLight">#b1c914</color>
+    <color name="tagDark">#FF4081</color>
+
+    <color name="strategy_bg">#FB5F41</color>
+    <color name="hotel_bg">#009CFF</color>
+    <color name="scenery_bg">#FF7E00</color>
+
+    <color name="robot_type_gray">#F2F2F2</color>
+</resources>
