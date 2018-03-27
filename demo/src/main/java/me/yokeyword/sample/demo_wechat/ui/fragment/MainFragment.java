@@ -32,9 +32,7 @@ public class MainFragment extends SupportFragment {
 
 
     public static MainFragment newInstance() {
-
         Bundle args = new Bundle();
-
         MainFragment fragment = new MainFragment();
         fragment.setArguments(args);
         return fragment;
@@ -73,7 +71,6 @@ public class MainFragment extends SupportFragment {
 
     private void initView(View view) {
         mBottomBar = (BottomBar) view.findViewById(R.id.bottomBar);
-
         mBottomBar
                 .addItem(new BottomBarTab(_mActivity, R.drawable.ic_message_white_24dp, getString(R.string.msg)))
                 .addItem(new BottomBarTab(_mActivity, R.drawable.ic_account_circle_white_24dp, getString(R.string.discover)))
